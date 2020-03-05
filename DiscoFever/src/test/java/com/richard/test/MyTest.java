@@ -10,5 +10,9 @@ public class MyTest {
 	public void test() {
 		assertEquals("True is any true", true, true);
 	}
+	@Test
+	public void fail() {
+		assertEquals("True is false", true, false);
+	}
 
 }
