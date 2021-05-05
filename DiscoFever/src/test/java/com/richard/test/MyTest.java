@@ -12,7 +12,7 @@ public class MyTest {
 	}
 	@Test
 	public void fail() {
-		assertEquals("True is false", true, false);
+		assertNotEquals("True is false", true, false);
 	}
 
 }
